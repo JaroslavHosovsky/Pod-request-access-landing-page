@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="font-chivo bg-img h-screen sm:bg-[#121725]">
+    <main
+      class="max-sm:w-[85%] max-sm:m-auto flex flex-col justify-center items-center h-screen sm:w-[80%] lg:max-w-[65%]"
+    >
+      <img
+        src="./images/desktop/logo.svg"
+        alt=""
+        class="max-sm:mb-16 sm:absolute sm:top-[50px] sm:left-[50px]"
+      />
+      <section class="sm:bg-[#121725] sm:p-12 lg:p-16">
+        <div class="text-center mb-9 sm:bg-[#121725] sm:z-10 sm:text-left">
+          <h1
+            class="uppercase text-[#54E6AF] text-2xl leading-8 mb-6 sm:text-3xl lg:text-5xl"
+          >
+            Publish your podcast <span class="text-white">everywhere.</span>
+          </h1>
+          <p class="text-[#C2CBE5] text-[17px] sm:w-[76%]">
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </p>
+        </div>
+        <form class="max-sm:hidden relative mb-9 form-desktop">
+          <input
+            type="email"
+            name=""
+            id="email1"
+            placeholder="Email address"
+            class="min-w-[415px] bg-[#2C344B] h-14 rounded-[26px] pl-9 mb-5 outline-none text-[#C2CBE5]"
+          />
+          <input
+            type="submit"
+            value="Request Access"
+            class="w-[170px] bg-[#54E6AF] hover:bg-[#b1f7df] h-10 rounded-[20px] font-bold absolute top-[8px] left-[235px]"
+          />
+
+          <p class="warning-tablet-desktop">Oops! Please check your email</p>
+        </form>
+        <div class="flex justify-between items-center w-[100%] mb-9">
+          <img
+            src="/images/desktop/spotify.svg"
+            alt=""
+            class="w-[65px] min-w-[45px] sm:w-[85px]"
+          />
+          <img
+            src="/images/desktop/apple-podcast.svg"
+            alt=""
+            class="w-[65px] min-w-[45px] sm:w-[85px]"
+          />
+          <img
+            src="/images/desktop/google-podcasts.svg"
+            alt=""
+            class="w-[65px] min-w-[45px] sm:w-[85px]"
+          /><img
+            src="/images/desktop/pocket-casts.svg"
+            alt=""
+            class="w-[65px] min-w-[45px] sm:w-[85px]"
+          />
+        </div>
+        <form action="" class="form-mobile">
+          <input
+            type="email"
+            name=""
+            id="email2"
+            placeholder="Email address"
+            class="w-[100%] bg-[#2C344B] h-11 rounded-3xl pl-9 outline-none sm:hidden text-[#C2CBE5]"
+          />
+          <p class="warning-mobile sm:hidden">Oops! Please check your email</p>
+          <input
+            type="submit"
+            value="Request Access"
+            class="w-[100%] bg-[#54E6AF] hover:bg-[#b1f7df] h-11 mt-5 rounded-3xl font-bold sm:hidden"
+          />
+        </form>
+      </section>
+      <img
+        src="/images/desktop/bg-pattern-dots.svg"
+        alt=""
+        class="max-sm:hidden sm:absolute sm:max-lg:bottom-0 sm:max-lg:left-12 lg:bottom-16 lg:right-0"
+      />
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
